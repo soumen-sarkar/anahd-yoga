@@ -1,0 +1,212 @@
+/* Extra small device (Phones, <768px ) */
+@media (max-width: 767px) {
+.social-media ul {
+	text-align: right;
+}
+.navbar-toggle {
+	background-image:url(../img/icon-dropdown.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 43px;
+	height: 10px;
+}
+.logo-wraper {
+	background-color: #f9f6ec;
+	padding: 7px;
+	position: absolute;
+	height: 85px;
+	width: 85px;
+	-webkit-box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.21);
+	box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.21);
+}
+.carousel {
+    height: 336px !important;
+}
+.cta-container {
+	position: static !important;
+	margin: 15px 0 0 0;
+}
+.cta-shadow {
+	float: left;
+	margin: 0 auto 17px;
+	width: 100%;
+}
+.carousel-caption h2, carousel-caption h2 a,
+.carousel-caption h3, carousel-caption h3 a {
+	font-size: 20px;
+}
+.cta .img-responsive {
+	width: 100%;
+}
+.gray-cta-bg {
+	padding: 13px 30px !important;
+	position: absolute;
+	bottom: 0;
+}
+.blue-cta-bg {
+	padding: 13px 30px !important;
+	position: absolute;
+	bottom: 0;
+}
+.carousel-indicators {
+	bottom: 13px !important;
+	text-align: center;
+}
+.carousel-caption {
+	left: 0;
+	right:0;
+}
+.carousel-caption {
+	bottom: 73px !important;
+}
+}
+/* Small devices (Tablets, >768px and <992px ) */
+@media (min-width: 768px) and (max-width: 991px) {
+.nav-wraper .dropdown-menu {
+    position: relative;
+    float: none;
+}
+.logo-wraper {
+	background-color: #f9f6ec;
+	padding: 7px;
+	position: absolute;
+	height: 85px;
+	width: 85px;
+	-webkit-box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.21);
+	box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.21);
+}
+.cta-shadow {
+	max-height: 135px;
+	overflow: hidden;
+	margin: 0 0 17px 0;
+}
+.gray-cta-bg {
+	padding: 29px 70px !important;
+}
+.blue-cta-bg {
+	padding: 29px 70px !important;
+}
+.carousel-indicators {
+	left: 43.5%;
+	text-align: left;
+}
+.carousel-caption {
+	left: 0;
+	right:0;
+}
+.cta-bottom-margin {
+	margin-bottom: 430px;
+}
+.newsletter {
+	float: left;
+    margin: 20px 0;
+    width: 100%;
+}
+.copyright {
+    text-align: center;
+}
+}
+/* Medium devices  (Desktops, >992px and <1200px ) */
+@media (min-width: 992px) and (max-width: 1199px) {
+.logo-wraper {
+	background-color: #f9f6ec;
+	padding: 20px;
+	position: absolute;
+	height: 168px;
+	width: 168px;
+	-webkit-box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.21);
+	box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.21);
+}
+.gray-cta-bg {
+	position: absolute;
+	top: 116px;
+}
+.blue-cta-bg {
+	position: absolute;
+	top: 116px;
+}
+.carousel-caption {
+	right: 0;
+}
+.carousel-caption {
+	left: 55%;
+	right: 8%;
+}
+.cta-bottom-margin {
+	margin-bottom: 200px;
+}
+.carousel-indicators {
+	left: 40.5%;
+	text-align: left;
+}
+.footerMenu ul li a {
+ 	font-size: 10px !important;
+	padding: 0 5px !important;
+}
+.footerMenu ul li:first-child a {
+    padding-left: 0px !important;
+}
+}
+/* Large devices  (Desktops, >1200px ) */
+@media (min-width: 1200px) {
+.logo-wraper {
+	background-color: #f9f6ec;
+	padding: 16px 35px;
+	position: absolute;
+	height: 204px;
+	width: 242px;
+	-webkit-box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.21);
+	box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.21);
+}
+.carousel-indicators {
+	left: 38%;
+	text-align: left;
+}
+.carousel-caption {
+	left: 55%;
+	right: 8%;
+}
+.cta-bottom-margin {
+	margin-bottom: 84px;
+}
+}
+/* Used only for navbar collapse */
+@media (max-width: 991px) {
+.navbar-header {
+	float: none;
+	background: none;
+}
+.navbar-toggle {
+	display: block;
+	background-image:url(../img/icon-dropdown.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	width: 43px;
+	height: 10px;
+}
+.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+}
+.navbar-collapse.collapse {
+	display: none!important;
+}
+.navbar-nav {
+	float: none!important;
+	margin: 7.5px -15px;
+}
+.navbar-nav>li {
+	float: none;
+}
+.navbar-nav>li>a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* since 3.1.0 */
+.navbar-collapse.collapse.in { 
+	display: block!important;
+}
+.collapsing {
+	overflow: hidden!important;
+}
+}
